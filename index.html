@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ash Journey</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Lenis -->
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.6/bundled/lenis.min.js"></script>
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">Loading Journey...</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <h1>From Pallet Town to World Champion</h1>
+    <p>A journey fueled by friendship, battles, and an unbreakable dream.</p>
+    <button id="startBtn" class="magnetic">Start Journey</button>
+  </div>
+</section>
+
+<div class="scroll-indicator">↓</div>
+
+<!-- JOURNEY -->
+<section class="journey">
+
+  <h2>The Journey Begins</h2>
+
+  <p class="journey-desc">
+  Every journey starts with a single step — and for Ash, it began in the quiet
+  town of Pallet. With nothing but determination and an unlikely partner in Pikachu,
+  he stepped into a world filled with challenges, friendships, and unforgettable battles.
+  <br><br>
+  Through every defeat, he learned resilience. Through every victory, he grew stronger.
+  And through every companion he met, he discovered that becoming a Pokémon Master
+  was never just about winning — it was about the journey itself.
+</p>
+
+  <div class="timeline">
+
+   <div class="timeline-item">
+  <div class="text">
+    <h3>🌱 Pallet Town</h3>
+    <p>
+      A peaceful beginning. Pallet Town is where Ash’s dream was born —
+      a small place that sparked a journey across regions.
+      <br><br>
+      It was here he met Pikachu, a bond that would define everything ahead.
+    </p>
+  </div>
+  <img src="images/pallet-town.jpg">
+</div>
+
+    <div class="timeline-item reverse">
+      <div class="text">
+        <h3>🥊 First Gym Battle</h3>
+           <p>
+               The first real test of a trainer’s strength. Facing Brock, Ash quickly realized 
+               that passion alone wasn’t enough — strategy, patience, and trust mattered.
+                <br><br>
+                this battle wasn’t just about winning; it was about understanding his Pokémon 
+                and learning how to fight as a team.
+                   <br><br>
+                      it marked the moment Ash began to grow from a beginner into a true competitor.
+                      </p>
+      </div>
+      <img src="images/gym-battle.jpg">
+    </div>
+
+    <div class="timeline-item">
+      <div class="text">
+        <h3>🏆 Indigo League</h3>
+<p>
+Ash’s first major tournament. Competing against trainers from across the region, 
+he experienced the thrill of high-stakes battles.
+<br><br>
+Though he didn’t win, the Indigo League taught him one of the most important lessons:
+failure is just a step toward greatness.
+<br><br>
+It was here that Ash’s dream started to feel real.
+</p>
+      </div>
+      <img src="images/indigo-league.jpg">
+    </div>
+
+    <div class="timeline-item reverse">
+      <div class="text">
+        <h3>⚔️ Sinnoh Rivalries</h3>
+<p>
+In Sinnoh, Ash faced some of his toughest opponents. Rivalries pushed him to his limits, 
+forcing him to adapt, improve, and never give up.
+<br><br>
+Battles became more intense, strategies more complex, and every match tested his resolve.
+<br><br>
+This journey shaped Ash into a stronger, smarter, and more determined trainer.
+</p>
+      </div>
+      <img src="images/sinnoh.jpg">
+    </div>
+
+    <div class="timeline-item">
+      <div class="text">
+        <h3>👑 Alola Champion</h3>
+<p>
+The moment everything came together. After years of struggle, growth, and persistence,
+Ash finally achieved his dream.
+<br><br>
+Winning the Alola League wasn’t just a victory — it was proof of his journey,
+his bonds, and his unwavering determination.
+<br><br>
+From Pallet Town to Champion — the dream was finally real.
+</p>
+      </div>
+      <img src="images/alola.jpg">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- POKEMON -->
+<section class="pokemon">
+  <h2>More Than Pokémon</h2>
+  <p>Each Pokémon carries memories of battles and bonds.</p>
+
+  <div class="grid">
+
+  <div class="poke-card electric">
+    <div class="poke-inner">
+      <img src="images/pika.png" class="poke-img">
+      <div class="poke-info">
+        <h3>Pikachu ⚡</h3>
+        <p>
+          Ash’s most trusted partner, known for speed,
+          electric attacks, and an unbreakable bond.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="poke-card fire">
+    <div class="poke-inner">
+      <img src="images/chari.png" class="poke-img">
+      <div class="poke-info">
+        <h3>Charizard 🔥</h3>
+        <p>
+          A fierce warrior with immense strength,
+          symbolizing growth, pride, and power.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="poke-card water">
+    <div class="poke-inner">
+      <img src="images/greninja.png" class="poke-img">
+      <div class="poke-info">
+        <h3>Greninja 💧</h3>
+        <p>
+          Fast, silent, and precise — a perfect bond
+          between trainer and Pokémon.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="poke-card grass">
+    <div class="poke-inner">
+      <img src="images/balba.png" class="poke-img">
+      <div class="poke-info">
+        <h3>Bulbasaur 🌿</h3>
+        <p>
+          Calm and loyal, bringing balance and
+          leadership to the team.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- COMPANIONS -->
+<section class="companions">
+
+  <h2>Friends Along the Way</h2>
+  <p>Every great journey is shaped by the people you meet.</p>
+
+  <div class="grid">
+
+    <!-- MISTY -->
+    <div class="comp-card water">
+      <div class="comp-inner">
+        <img src="images/mist.png" class="comp-img">
+
+        <div class="comp-info">
+          <h3>Misty 💧</h3>
+          <p>
+            A strong and independent trainer, Misty brought determination,
+            courage, and emotional strength to Ash’s journey.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BROCK -->
+    <div class="comp-card earth">
+      <div class="comp-inner">
+        <img src="images/bro.png" class="comp-img">
+
+        <div class="comp-info">
+          <h3>Brock 🪨</h3>
+          <p>
+            The wise guide of the group, Brock provided knowledge,
+            stability, and support throughout the journey.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERENA -->
+    <div class="comp-card fairy">
+      <div class="comp-inner">
+        <img src="images/saru.png" class="comp-img">
+
+        <div class="comp-info">
+          <h3>Serena ✨</h3>
+          <p>
+            Kind and passionate, Serena added warmth and emotional depth,
+            inspiring growth and confidence.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<footer class="footer">
+  <p>
+    Designed & Built by <span class="highlight">Chirag Chaudhary</span> ⚡
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
